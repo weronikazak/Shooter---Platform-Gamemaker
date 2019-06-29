@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
 x = oPlayer.x;
 y = oPlayer.y;
 
@@ -19,11 +18,11 @@ else {
 }
 
 firingdelay = firingdelay - 1;
-recoil = max(0, recoil-1);
+
 if (mouse_check_button(mb_left)) || (gamepad_button_check(0, gp_shoulderrb)) && (firingdelay < 0){
 	firingdelay = 5;
 	recoil = 4;
-	
+	ScreenShake(2, 10);
 	with(instance_create_layer(x, y, "Bullet", oBullet)){
 		speed = 25;
 		direction = other.image_angle + random_range(-3, 3);
@@ -31,8 +30,10 @@ if (mouse_check_button(mb_left)) || (gamepad_button_check(0, gp_shoulderrb)) && 
 	}
 }
 
-x = x - lengthdir_x(recoil, image_speed);
-y = y - lengthdir_y(recoil, image_speed);
+recoil = max(0, recoil - 1);
+
+x = x - lengthdir_x(recoil, image_angle);
+y = y - lengthdir_y(recoil, image_angle);
 
 if ((image_angle > 90) || (image_angle < 270)){
 	image_yscale = -1;
