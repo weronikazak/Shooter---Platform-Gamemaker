@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "6473606c-ba87-4e2f-9e68-77361325433b",
+            "Value": {
+                "id": "8b163367-e3e6-4a78-9f52-269094ee25d4",
+                "resourcePath": "fonts\\fMenu\\fMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "690bd734-2ed1-486a-90a6-38f9a667110e",
             "Value": {
                 "id": "30559d34-bb84-4ec1-99e1-8ad5453c3886",
