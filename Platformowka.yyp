@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "4ce2c8c9-6de1-4b6d-9d83-c40ec0e60f1b",
+            "Value": {
+                "id": "6ca2f653-ace4-4ffd-9297-446871a4ceeb",
+                "resourcePath": "objects\\oEnemyBig\\oEnemyBig.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4da1b0fa-41a6-47cb-b3d0-a722961e4f1f",
             "Value": {
                 "id": "03454d70-867a-4cf2-a87e-ab8e12cbb814",

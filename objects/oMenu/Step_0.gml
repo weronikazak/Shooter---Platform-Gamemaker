@@ -1,5 +1,4 @@
 /// @description
-
 // Item ease in
 menu_x += (menu_x_target - menu_x) / menu_speed;
 
@@ -26,6 +25,18 @@ if (menu_control){
 if (menu_x > gui_width+150) && (menu_commited!= -1){
 	switch(menu_commited){
 		case 2: default: SlideTransition(TRANS_MODE.NEXT); break;
+		case 1:{
+			if(!file_exists(SAVEFILE)){
+				SlideTransition(TRANS_MODE.NEXT);
+			}
+			else{
+				var file = file_text_open_read(SAVEFILE);
+				var target = file_text_read_real(file);
+				file_text_close(file);
+				SlideTransition(TRANS_MODE.GOTO, target);
+			}
+		}
+		break;
 		case 0: game_end(); break;
 	}
 }
