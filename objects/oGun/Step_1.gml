@@ -19,10 +19,11 @@ else {
 
 firingdelay = firingdelay - 1;
 
-if (mouse_check_button(mb_left)) || (gamepad_button_check(0, gp_shoulderrb)) && (firingdelay < 0){
+if ((mouse_check_button(mb_left)) || gamepad_button_check(0, gp_shoulderrb)) && (firingdelay < 0){
 	firingdelay = 5;
 	recoil = 4;
 	ScreenShake(2, 10);
+	audio_play_sound(snShoot, 5, false);
 	with(instance_create_layer(x, y, "Bullet", oBullet)){
 		speed = 25;
 		direction = other.image_angle + random_range(-3, 3);
