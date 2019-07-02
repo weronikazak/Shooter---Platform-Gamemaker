@@ -1,6 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description
 //Override old save
 
 if (file_exists(SAVEFILE)) file_delete(SAVEFILE);
