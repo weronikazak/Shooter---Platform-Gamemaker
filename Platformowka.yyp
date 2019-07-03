@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "1010494b-db1d-4809-b73b-34294ab931b9",
+            "Value": {
+                "id": "115eadcd-f42d-43a2-a6d1-c2de56d79e7d",
+                "resourcePath": "sprites\\sSign\\sSign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "15a02c59-e094-445e-a497-25d2187f9913",
             "Value": {
                 "id": "16031728-43d4-4356-8343-5cefa24fbcba",
@@ -116,6 +124,14 @@
                 "id": "6d2de719-e03b-4ae0-bfe1-23210fbeb880",
                 "resourcePath": "rooms\\rMenu\\rMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "408a8a68-ab57-4309-abfc-b25f86fdf10c",
+            "Value": {
+                "id": "d7f1f70f-af15-40ca-9180-ef318ad8f31d",
+                "resourcePath": "objects\\oText\\oText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -311,6 +327,22 @@
             }
         },
         {
+            "Key": "a64998c7-65ee-4e7d-b723-e7d89eed4cd1",
+            "Value": {
+                "id": "16ef182d-d31c-449e-9701-c2724c064261",
+                "resourcePath": "sprites\\sMarker\\sMarker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "aa398385-17e9-4260-87ca-2d91e1b5b5b5",
+            "Value": {
+                "id": "b7d79d86-411a-4478-b4f0-d7024c7a0499",
+                "resourcePath": "objects\\oSign\\oSign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b0e0333c-1260-46bb-892d-eeb7743e24c7",
             "Value": {
                 "id": "5c6e4280-022c-44e4-b314-5f35851a57e4",
@@ -340,6 +372,14 @@
                 "id": "ba8cc838-3e4a-4b8e-a205-b79af350106a",
                 "resourcePath": "rooms\\rTwo\\rTwo.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b8b2ee85-a2e4-405e-b89d-c2793555e231",
+            "Value": {
+                "id": "4ccd335c-48dc-4137-87a3-23dceb6a7bdd",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -529,7 +569,8 @@
     ],
     "script_order": [
         "c1444758-f973-4876-8c59-4517029909f7",
-        "d56cd4ae-8caf-4cbc-b8d9-5b6a9aab7353"
+        "d56cd4ae-8caf-4cbc-b8d9-5b6a9aab7353",
+        "b8b2ee85-a2e4-405e-b89d-c2793555e231"
     ],
     "tutorial": ""
 }
