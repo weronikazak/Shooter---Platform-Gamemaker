@@ -79,11 +79,27 @@
             }
         },
         {
+            "Key": "11ff29d3-e872-42ff-bc4d-104b2deb8668",
+            "Value": {
+                "id": "730a70ce-4949-4c4f-b658-bf5949169e24",
+                "resourcePath": "objects\\oDust\\oDust.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "15a02c59-e094-445e-a497-25d2187f9913",
             "Value": {
                 "id": "16031728-43d4-4356-8343-5cefa24fbcba",
                 "resourcePath": "sounds\\snDeath\\snDeath.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "1717b424-2fd6-489e-ae4a-ea285f84621a",
+            "Value": {
+                "id": "c28c36e6-728a-4505-a2c3-24f513379f5f",
+                "resourcePath": "sprites\\sDust\\sDust.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +199,14 @@
             }
         },
         {
+            "Key": "594fdf56-10b8-4bcd-b1c2-b3bd25822986",
+            "Value": {
+                "id": "cea028a3-da8e-4dc7-82f4-a4b9bd6db7fc",
+                "resourcePath": "sprites\\sHitSpark\\sHitSpark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e6ba2a7-1380-4840-97db-923ca84454a2",
             "Value": {
                 "id": "e44ce637-5aa2-4720-9e18-2e4cae6a5a27",
@@ -267,6 +291,14 @@
             "Value": {
                 "id": "08a272e3-63d0-48b4-b4f7-6dedb15061b4",
                 "resourcePath": "sprites\\sPDead\\sPDead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "83518dcc-dd6e-4242-899e-9de2fbaa848c",
+            "Value": {
+                "id": "7c23fb49-57fb-41d4-8e3b-7a0ae9207050",
+                "resourcePath": "sprites\\sEbullet\\sEbullet.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -563,6 +595,14 @@
             "Value": {
                 "id": "585b2fab-e541-4c3d-b992-685f0e4b3ff2",
                 "resourcePath": "objects\\oCrate\\oCrate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ea39e132-e12c-453e-94c6-454d50892fee",
+            "Value": {
+                "id": "8ccd9894-b891-46f5-96ee-7e32a9fd812f",
+                "resourcePath": "objects\\oHitSpark\\oHitSpark.yy",
                 "resourceType": "GMObject"
             }
         },

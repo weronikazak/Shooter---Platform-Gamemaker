@@ -6,3 +6,6 @@ walksp = 4;
 
 controller = 0;
 hascontrol = true;
+canjump = 0;
+
+audio_sound_pitch(snShoot, 0.8);

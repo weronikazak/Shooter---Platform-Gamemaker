@@ -34,7 +34,13 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + grv;
 
-if ((place_meeting(x, y+ 1, oWall)) && (key_jump)){
+canjump-= 1;
+
+if (place_meeting(x, y+1, oWall)){
+	canjump = 10;
+}
+
+if ((canjump > 0) && (key_jump)){
 	vsp = -7;
 }
 
@@ -77,6 +83,11 @@ else{
 	{
 		audio_sound_pitch(snLanding, choose(0.6, 1.0, 1.2));
 		audio_play_sound(snLanding, 4, false);
+		repeat(5){
+			with (instance_create_layer(x, bbox_bottom, "Bullet", oDust)){
+				vsp = 0;
+			}
+		}
 	}
 	image_speed = 1;
 	if (hsp == 0){
