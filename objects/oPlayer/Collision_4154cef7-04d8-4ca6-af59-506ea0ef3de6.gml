@@ -1,1 +1,1 @@
-KillPlayer();
+if (!global.hasGun) KillPlayer();
