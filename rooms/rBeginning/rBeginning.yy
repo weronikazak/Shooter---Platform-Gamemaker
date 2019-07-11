@@ -293,7 +293,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "Tiles",
             "id": "f8aa44b9-926f-4a20-acc7-ffc604b8d92b",
             "depth": 300,
             "grid_x": 16,
