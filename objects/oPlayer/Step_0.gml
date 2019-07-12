@@ -72,6 +72,9 @@ y = y + vsp;
 
 #region //Animation
 
+var aimside = sign (mouse_x - x);
+if (aimside != 0) image_xscale = aimside;
+
 if (!place_meeting(x, y + 1, oWall)){
 	sprite_index = sPlayerA;
 	image_speed = 0;
@@ -98,11 +101,9 @@ else{
 	}
 	else{
 		sprite_index = sPlayerR;
+		if (aimside != sign(hsp)){
+			sprite_index = sPlayerReverse;
+		}
 	}
 }
-
-if (hsp != 0){
-	image_xscale = sign(hsp);
-}
-
 #endregion
